@@ -1,0 +1,75 @@
+```
+# ============================================================================
+# CREDENTIALS - NEVER COMMIT THESE!
+# ============================================================================
+
+# Configuration with API keys
+config.py
+news_config.py
+social_config.py
+
+# Environment variables
+.env
+*.env
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# OS FILES
+# ============================================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================================
+# TEMPORARY FILES
+# ============================================================================
+
+# Exports
+*.csv
+*.xlsx
+exports/
+
+# Temp
+tmp/
+temp/
+*.tmp
